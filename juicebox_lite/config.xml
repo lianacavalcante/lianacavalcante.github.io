@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle=""
+>
+  <image imageURL="images/nova-york.jpg"
+	thumbURL="thumbs/nova-york.jpg"
+	linkURL="images/nova-york.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/copa-do-mundo.jpg"
+	thumbURL="thumbs/copa-do-mundo.jpg"
+	linkURL="images/copa-do-mundo.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/praia-de-iracema.jpg"
+	thumbURL="thumbs/praia-de-iracema.jpg"
+	linkURL="images/praia-de-iracema.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/noivado.jpg"
+	thumbURL="thumbs/noivado.jpg"
+	linkURL="images/noivado.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ano-novo-2015.jpg"
+	thumbURL="thumbs/ano-novo-2015.jpg"
+	linkURL="images/ano-novo-2015.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/disney.jpg"
+	thumbURL="thumbs/disney.jpg"
+	linkURL="images/disney.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/central-park.jpg"
+	thumbURL="thumbs/central-park.jpg"
+	linkURL="images/central-park.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/estatua-da-liberdade.jpg"
+	thumbURL="thumbs/estatua-da-liberdade.jpg"
+	linkURL="images/estatua-da-liberdade.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ano-novo.jpg"
+	thumbURL="thumbs/ano-novo.jpg"
+	linkURL="images/ano-novo.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/chapada-diamantina.jpg"
+	thumbURL="thumbs/chapada-diamantina.jpg"
+	linkURL="images/chapada-diamantina.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/cachoeira.jpg"
+	thumbURL="thumbs/cachoeira.jpg"
+	linkURL="images/cachoeira.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/festa.jpg"
+	thumbURL="thumbs/festa.jpg"
+	linkURL="images/festa.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/jeri.jpg"
+	thumbURL="thumbs/jeri.jpg"
+	linkURL="images/jeri.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/jardim-ny.jpg"
+	thumbURL="thumbs/jardim-ny.jpg"
+	linkURL="images/jardim-ny.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/lapao.jpg"
+	thumbURL="thumbs/lapao.jpg"
+	linkURL="images/lapao.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/lapao-familia.jpg"
+	thumbURL="thumbs/lapao-familia.jpg"
+	linkURL="images/lapao-familia.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/copa-do-mundo-familia.jpg"
+	thumbURL="thumbs/copa-do-mundo-familia.jpg"
+	linkURL="images/copa-do-mundo-familia.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/parque.jpg"
+	thumbURL="thumbs/parque.jpg"
+	linkURL="images/parque.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ponte.jpg"
+	thumbURL="thumbs/ponte.jpg"
+	linkURL="images/ponte.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/casamento-de-milena.jpg"
+	thumbURL="thumbs/casamento-de-milena.jpg"
+	linkURL="images/casamento-de-milena.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/brinde.jpg"
+	thumbURL="thumbs/brinde.jpg"
+	linkURL="images/brinde.jpg"
+	linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+</juiceboxgallery>

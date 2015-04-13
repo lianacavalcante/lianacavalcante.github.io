@@ -1,0 +1,13 @@
+.container {
+  max-width: 800px;
+  color: #687177;
+  font-family: "Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #283A44;
+}
+
+h1 {
+  font-family: "Great Vibes";
+}
