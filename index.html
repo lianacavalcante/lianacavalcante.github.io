@@ -44,6 +44,7 @@
     }
   </style>
 
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="juicebox_lite/jbcore/juicebox.js"></script>
 
   <script type="text/javascript">
@@ -80,6 +81,31 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
+
+    $(function() {
+      $('#confirmacaoDePresenca').on('submit', function(e) {
+        var nome = $('#nome').val();
+        var resposta = $('#resposta').val();
+        var quantidade = $('#quantidade').val();
+        var email = $('#email').val();
+        var telefone = $('#telefone').val();
+        var observacoes = $('#observacoes').val();
+
+        e.preventDefault();
+        $.ajax({
+          type: 'POST',
+          url: 'https://docs.google.com/forms/d/1PRhvmNOunk4ICWpAO1hYhuIqsPTSyEz_7Ok-FTizom0/formResponse',
+          data: {
+            'entry.769859590': nome,
+            'entry.1567458747': resposta,
+            'entry.1972561473': quantidade,
+            'entry.909415114': email,
+            'entry.1393684423': telefone,
+            'entry.1146559276': observacoes
+          }
+        });
+      });
+    });
   </script>
 
 </head>
@@ -210,7 +236,7 @@
       </div>
     </div>
 
-    <form>
+    <form id="confirmacaoDePresenca">
       <div class="row">
         <div class="four columns">
           <label for="nome">Seu nome</label>
