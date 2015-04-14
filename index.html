@@ -35,14 +35,6 @@
   <script src="https://maps.googleapis.com/maps/api/js"></script>
 
   <script type="text/javascript">
-    new juicebox({
-      containerid:'juicebox-container',
-      baseURL:'juicebox_lite/',
-      backgroundColor:'rgb(0,0,0)',
-      galleryHeight:'600',
-      galleryWidth:'800'
-    });
-
     function criarMapa(titulo, id, lat, lng) {
       var mapCanvas = document.getElementById(id);
       var mapOptions = {
@@ -58,14 +50,18 @@
       });
     }
 
-    function initialize() {
-      criarMapa('Capela Christus Filius Dei', 'mapa-igreja', -3.738464, -38.506817);
-      criarMapa('Viriato Gastronomia e Eventos', 'mapa-recepcao', -3.792811, -38.481287);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
+    new juicebox({
+      containerid:'juicebox-container',
+      baseURL:'juicebox_lite/',
+      backgroundColor:'rgb(0,0,0)',
+      galleryHeight:'600',
+      galleryWidth:'800'
+    });
 
     $(function() {
+      criarMapa('Capela Christus Filius Dei', 'mapa-igreja', -3.738464, -38.506817);
+      criarMapa('Viriato Gastronomia e Eventos', 'mapa-recepcao', -3.792811, -38.481287);
+
       $(".fancybox").fancybox();
 
       $('#confirmacaoDePresenca').on('submit', function(e) {
@@ -75,7 +71,6 @@
         var email = $('#email').val();
         var telefone = $('#telefone').val();
         var observacoes = $('#observacoes').val();
-
         e.preventDefault();
         $.ajax({
           type: 'POST',
