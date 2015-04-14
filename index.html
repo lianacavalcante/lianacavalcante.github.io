@@ -65,13 +65,19 @@
       $(".fancybox").fancybox();
 
       $('#confirmacaoDePresenca').on('submit', function(e) {
+        e.preventDefault();
         var nome = $('#nome').val();
         var resposta = $('#resposta').val();
         var quantidade = $('#quantidade').val();
         var email = $('#email').val();
         var telefone = $('#telefone').val();
         var observacoes = $('#observacoes').val();
-        e.preventDefault();
+
+        if (!nome) {
+          alert("O preenchimento do nome é obrigatório");
+          return false;
+        }
+
         $.ajax({
           type: 'POST',
           url: 'https://docs.google.com/forms/d/1PRhvmNOunk4ICWpAO1hYhuIqsPTSyEz_7Ok-FTizom0/formResponse',
