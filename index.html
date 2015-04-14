@@ -21,9 +21,10 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="custom.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/skeleton.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' rel='stylesheet' type='text/css' media="screen">
+  <link href="custom.css" rel="stylesheet">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -45,6 +46,7 @@
   </style>
 
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="juicebox_lite/jbcore/juicebox.js"></script>
 
   <script type="text/javascript">
@@ -83,6 +85,8 @@
     google.maps.event.addDomListener(window, 'load', initialize);
 
     $(function() {
+      $(".fancybox").fancybox();
+
       $('#confirmacaoDePresenca').on('submit', function(e) {
         var nome = $('#nome').val();
         var resposta = $('#resposta').val();
@@ -191,7 +195,9 @@
         <br>
         Rua Silva Paulet, 1654 - Aldeota, Fortaleza-CE
         <br>
-        <img src="images/christus.jpg" style="width: 120px; height: 79px">
+        <a class="fancybox" href="images/christus.jpg">
+          <img src="images/christus_mini.jpg" style="width: 120px; height: 79px">
+        </a>
       </div>
 
       <div class="eight columns">
@@ -207,8 +213,8 @@
         <br>
         Rua República da Armênia, 1400 - Água Fria, Fortaleza-CE
         <br>
-        <img src="images/viriato-fora.jpg" style="width: 120px; height: 79px">
-        <img src="images/viriato-dentro.jpg" style="width: 120px; height: 79px">
+        <a class="fancybox" href="images/viriato-fora.jpg"><img src="images/viriato-fora_mini.jpg" style="width: 120px; height: 79px"></a>
+        <a class="fancybox" href="images/viriato-dentro.jpg"><img src="images/viriato-dentro_mini.jpg" style="width: 120px; height: 79px"></a>
       </div>
       <div class="eight columns">
         <div id="mapa-recepcao"></div>
@@ -219,7 +225,7 @@
       <div class="twelve column">
         <h5>Confirmação de presença</h5>
 
-        <p>Vai poder ir ao nosso casamento? Oba!!! Então confirme sua presença no formulário abaixo! É muito importante sua confirmação, pois assim poderemos organizar o evento com mais precisão. Contamos com vocês! ;)</p>
+        <p>Vai poder ir ao nosso casamento? Oba!!! Então confirme sua presença no formulário abaixo! É muito importante sua confirmação, pois assim poderemos organizar o evento com maior precisão. Contamos com vocês! ;)</p>
       </div>
     </div>
 
