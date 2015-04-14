@@ -16,23 +16,23 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/skeleton.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
   <link href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' rel='stylesheet' type='text/css' media="screen">
   <link href="custom.css" rel="stylesheet">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="juicebox_lite/jbcore/juicebox.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
 
   <script type="text/javascript">
     new juicebox({
@@ -42,11 +42,7 @@
       galleryHeight:'600',
       galleryWidth:'800'
     });
-  </script>
 
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
-
-  <script type="text/javascript">
     function criarMapa(titulo, id, lat, lng) {
       var mapCanvas = document.getElementById(id);
       var mapOptions = {
