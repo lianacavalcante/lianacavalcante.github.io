@@ -33,67 +33,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
   <script src="juicebox_lite/jbcore/juicebox.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js"></script>
-
-  <script type="text/javascript">
-    function criarMapa(titulo, id, lat, lng) {
-      var mapCanvas = document.getElementById(id);
-      var mapOptions = {
-        center: new google.maps.LatLng(lat, lng),
-        zoom: 15,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(mapCanvas, mapOptions);
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(lat, lng),
-        title: titulo,
-        map: map
-      });
-    }
-
-    new juicebox({
-      containerid:'juicebox-container',
-      baseURL:'juicebox_lite/',
-      backgroundColor:'rgb(0,0,0)',
-      galleryHeight:'600',
-      galleryWidth:'800'
-    });
-
-    $(function() {
-      criarMapa('Capela Christus Filius Dei', 'mapa-igreja', -3.738464, -38.506817);
-      criarMapa('Viriato Gastronomia e Eventos', 'mapa-recepcao', -3.792811, -38.481287);
-
-      $(".fancybox").fancybox();
-
-      $('#confirmacaoDePresenca').on('submit', function(e) {
-        e.preventDefault();
-        var nome = $('#nome').val();
-        var resposta = $('#resposta').val();
-        var quantidade = $('#quantidade').val();
-        var email = $('#email').val();
-        var telefone = $('#telefone').val();
-        var observacoes = $('#observacoes').val();
-
-        if (!nome) {
-          alert("O preenchimento do nome é obrigatório");
-          return false;
-        }
-
-        $.ajax({
-          type: 'POST',
-          url: 'https://docs.google.com/forms/d/1PRhvmNOunk4ICWpAO1hYhuIqsPTSyEz_7Ok-FTizom0/formResponse',
-          data: {
-            'entry.769859590': nome,
-            'entry.1567458747': resposta,
-            'entry.1972561473': quantidade,
-            'entry.909415114': email,
-            'entry.1393684423': telefone,
-            'entry.1146559276': observacoes
-          }
-        });
-        $("#confirmacaoDePresenca").replaceWith('<div class="row"><div class="twelve column"><h2 style="text-align: center;background-color: #ddd; padding: 10px;">Obrigado pela resposta!</h2></div></div>');
-      });
-    });
-  </script>
+  <script src="index.js" type="text/javascript"></script>
 
 </head>
 <body style="background-color: #fff">
@@ -163,7 +103,7 @@
         <h5>Hospedagem</h5>
 
         <p>
-          Neste documento segue uma relação de sugestões de hospedagens com preços razoáveis. Caso um grupo maior se interesse por algum hotel/pousada poderemos tentar negociar um desconto: 
+          Relação de sugestões de hospedagens com preços razoáveis. Caso um grupo maior se interesse por algum hotel/pousada poderemos tentar negociar um desconto: 
           <a target="_blank" href="https://docs.google.com/document/d/1TlddYEat-iN9-ujSmIQzsD70augfcojDGYzs-nL-ivw/edit?usp=sharing">Sugestões de hotéis - Google Documentos</a>.
         </p>
       </div>
@@ -172,6 +112,23 @@
 
         <p>
            Para as meninas de outros Estados, segue uma relação com dicas de salões em Fortaleza: <a target="_blank" href="https://docs.google.com/document/d/1KscY442fpWS-hXqxznyL-2H1sl7t5F-0Q19iJLqF_jM/edit?usp=sharing">Salões de beleza - Google Documentos</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="six columns">
+        <h5>Atrações turísticas</h5>
+
+        <p>
+          <a target="_blank" href="https://docs.google.com/document/d/1QrOjx5fV50tOauV9QLdMKW_pTWUKRirBgfymnFI3Klg/edit?usp=sharing">Atrações turísticas - Google Documentos</a>.
+        </p>
+      </div>
+      <div class="six columns">
+        <h5>Restaurantes</h5>
+
+        <p>
+           <a target="_blank" href="https://docs.google.com/document/d/11UWfw-38nby9iDQBaDBO15oBvk6b6E9UV7zTiyCpn5E/edit?usp=sharing">Restaurantes - Google Documentos</a>.
         </p>
       </div>
     </div>
