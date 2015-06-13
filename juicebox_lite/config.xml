@@ -3,6 +3,118 @@
 <juiceboxgallery
 	galleryTitle=""
 >
+  <image imageURL="images/ensaio-01.jpg"
+  thumbURL="thumbs/ensaio-01.jpg"
+  linkURL="images/ensaio-01.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-02.jpg"
+  thumbURL="thumbs/ensaio-02.jpg"
+  linkURL="images/ensaio-02.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-03.jpg"
+  thumbURL="thumbs/ensaio-03.jpg"
+  linkURL="images/ensaio-03.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-04.jpg"
+  thumbURL="thumbs/ensaio-04.jpg"
+  linkURL="images/ensaio-04.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-05.jpg"
+  thumbURL="thumbs/ensaio-05.jpg"
+  linkURL="images/ensaio-05.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-06.jpg"
+  thumbURL="thumbs/ensaio-06.jpg"
+  linkURL="images/ensaio-06.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-07.jpg"
+  thumbURL="thumbs/ensaio-07.jpg"
+  linkURL="images/ensaio-07.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-08.jpg"
+  thumbURL="thumbs/ensaio-08.jpg"
+  linkURL="images/ensaio-08.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-09.jpg"
+  thumbURL="thumbs/ensaio-09.jpg"
+  linkURL="images/ensaio-09.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-10.jpg"
+  thumbURL="thumbs/ensaio-10.jpg"
+  linkURL="images/ensaio-10.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-11.jpg"
+  thumbURL="thumbs/ensaio-11.jpg"
+  linkURL="images/ensaio-11.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-12.jpg"
+  thumbURL="thumbs/ensaio-12.jpg"
+  linkURL="images/ensaio-12.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-13.jpg"
+  thumbURL="thumbs/ensaio-13.jpg"
+  linkURL="images/ensaio-13.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-14.jpg"
+  thumbURL="thumbs/ensaio-14.jpg"
+  linkURL="images/ensaio-14.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-15.jpg"
+  thumbURL="thumbs/ensaio-15.jpg"
+  linkURL="images/ensaio-15.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
+  <image imageURL="images/ensaio-16.jpg"
+  thumbURL="thumbs/ensaio-16.jpg"
+  linkURL="images/ensaio-16.jpg"
+  linkTarget="_blank">
+    <title></title>
+    <caption></caption>
+  </image>
   <image imageURL="images/nova-york.jpg"
 	thumbURL="thumbs/nova-york.jpg"
 	linkURL="images/nova-york.jpg"
